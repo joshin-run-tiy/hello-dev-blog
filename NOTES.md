@@ -42,15 +42,15 @@ The initial working version is due by Wednesday evening.
 - vw, em, %
 
 ### Summary
-- header
-- main content
-- sidebar(or two)  
-  - months: blog entry made
-  - list of tags
-  - on click: filtered list of blog entries  
-- nav bar
- - blog posts
-    - date-time
-    - tags
- - about page
- - recommended links
+- [x] header
+- [ ] main content
+- [x] sidebar(or two)  
+  - [ ] months: blog entry made
+  - [ ] list of tags
+  - [ ] on click: filtered list of blog entries  
+- [x] nav bar
+- [ ] blog posts
+  - [ ] date-time
+  - [ ] tags
+- [x] about page
+- [x] recommended links
