@@ -4,9 +4,9 @@ class Blog extends Component {
 
   render() {
     return (
-      <div class="screen blog">
+      <div className="screen blog">
         <h1>Blog Posts</h1>
-      </div>   
+      </div>
     )
   }
 
