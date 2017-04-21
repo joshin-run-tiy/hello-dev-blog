@@ -6,7 +6,7 @@ body {
 .app-wrapper {
   display: grid;
   grid-template-columns: 20% 80%;
-  grid-template-rows: 5% auto auto;
+  grid-template-rows: 5% auto auto 5%;
 }
 
 .app-nav-menu {
