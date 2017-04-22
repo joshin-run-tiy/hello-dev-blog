@@ -5,6 +5,7 @@ import Sidebar from './components/Sidebar'
 import Blog from './components/Blog'
 import Links from './components/Links'
 import About from './components/About'
+import Footer from './components/Footer'
 
 class App extends React.Component {
 
@@ -55,6 +56,7 @@ class App extends React.Component {
           {ActiveScreen}
           </div>
         </div>
+        <Footer />
       </div>
     )
   }
