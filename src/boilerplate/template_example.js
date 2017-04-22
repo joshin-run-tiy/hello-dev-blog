@@ -1,11 +1,21 @@
+import React, { Component } from 'react';
+import logo from './logo.svg';
+import './App.css';
+
 import React, { Component } from 'react'
 
 class Post extends Component {
 
   render() {
+    let content = "";
+    if (true) {
+      content = <h1>Josh</h1>
+    }
+
     return (
       <div className="screen post">
-        <h1>New Post</h1>
+        <h1>New Post</h1>{ content }
+        { 5 == 5 ? "Yes" : "No" }
         <form>
           <fieldset>
             <legend>Post</legend>

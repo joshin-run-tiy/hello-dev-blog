@@ -75,6 +75,31 @@ ul#menu {
     list-style-type: none;
     font-size: 1.5em; }
 
+legend {
+  font-size: 4em;
+  margin: 0; }
+
+fieldset {
+  padding-left: 50px;
+  padding-bottom: 50px;
+  padding-top: 50px; }
+
+label {
+  font-size: 2em; }
+
+#post-title {
+  font-size: 1.25em;
+  margin: 1em;
+  width: 50vw; }
+
+#post-contents {
+  font-size: 1em; }
+
+#tags {
+  font-size: 1.25em;
+  margin: 1em;
+  width: 50vw; }
+
 .main-content {
   grid-column: 2 / 3;
   grid-row: 3 / 4;
@@ -106,5 +131,14 @@ h1 {
 
 #new-post {
   font-size: 1.0em; }
+
+#submit {
+  color: #fbff4f;
+  background-color: #ff0000;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 1.255em;
+  margin-top: 20px;
+  cursor: pointer; }
 
 /*# sourceMappingURL=app.css.map */

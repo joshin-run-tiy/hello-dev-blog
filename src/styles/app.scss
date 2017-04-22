@@ -101,13 +101,43 @@ ul#menu {
 //   font-family: 'futura';
 // }
 
+legend {
+  font-size: 4em;
+  margin: 0;
+
+}
+
+fieldset {
+  padding-left: 50px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+label {
+  font-size: 2em;
+}
+
+#post-title {
+  font-size: 1.25em;
+  margin: 1em;
+  width: 50vw;
+}
+
+#post-contents {
+  font-size: 1em;
+}
+
+#tags {
+  font-size: 1.25em;
+  margin: 1em;
+  width: 50vw;
+}
 .main-content {
   grid-column: 2 / 3;
   grid-row: 3 / 4;
   display: grid;
   font-family: 'futura';
   color: #ff0000;
-  // background-color: #000;
 }
 
 a {
@@ -156,11 +186,12 @@ h1 {
   font-size: 1.0em;
 }
 
-
-// a:hover {
-//   color: #fbff4f;
-// }
-//
-// a:visited {
-//   color: #ff0000;
-// }
+#submit {
+  color: #fbff4f;
+  background-color: #ff0000;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 1.255em;
+  margin-top: 20px;
+  cursor: pointer;
+}
