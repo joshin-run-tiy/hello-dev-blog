@@ -62,3 +62,14 @@ The initial working version is due by Wednesday evening.
 - [ ] Content
   - [ ] About
   - [ ] Links
+
+### Assignment
+This week's assignment is to build a React app for a blog.
+
+- [x] Your blog display needs a header, main content area, and footer.
+- [x] Your main content area needs to have a main area for actual content and at least one sidebar.
+- [x] Your site also needs a navigation bar that takes users to blog posts, an about page, and a recommended links links page.
+- [ ] Your blog posts should include a date-time entry and tags.
+- [ ] Your sidebar should include a list of months when a blog entry has been made, along with a
+- [ ] list of tags used on blogs.
+- [ ] Clicking on a month or tag should show a filtered list of blog entries.

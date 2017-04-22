@@ -6,6 +6,7 @@ import Blog from './components/Blog'
 import Links from './components/Links'
 import About from './components/About'
 import Footer from './components/Footer'
+import Post from './components/Post'
 
 class App extends React.Component {
 
@@ -37,12 +38,17 @@ class App extends React.Component {
       ActiveScreen = <About />
     }
 
+    if(this.state.screenIndex === 4) {
+      ActiveScreen = <Post />
+    }
+
   return (
     <div className="app">
       <div id="home" className="app-wrapper">
         <div className="app-nav-menu">
           <ul id="menu">
             <li onClick={() => { this.updateScreen(1)}}>Blog</li>
+            <li onClick={() => { this.updateScreen(4)}}>Post</li>
             <li onClick={() => { this.updateScreen(2)}}>Links</li>
             <li onClick={() => { this.updateScreen(3)}}>About</li>
           </ul>
@@ -51,6 +57,7 @@ class App extends React.Component {
           <img id="header" src="./img/hello-dev-header-full-thin.jpg" alt="Hello Dev" />
         </div>
         <div className="app-main"></div>
+          <p onClick={() => { this.updateScreen(4)}}>New Post</p>
           <Sidebar />
           <div className="main-content">
           {ActiveScreen}
