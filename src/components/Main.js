@@ -1,7 +1,5 @@
 import React, { Component } from 'react'
-import Blog from './Blog'
-import Links from './Links'
-import About from './About'
+
 
 class Main extends Component {
 
