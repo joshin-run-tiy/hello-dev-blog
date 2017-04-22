@@ -5,7 +5,7 @@ body {
 .app-wrapper {
   display: grid;
   grid-template-columns: 20% 80%;
-  grid-template-rows: 5% auto auto; }
+  grid-template-rows: 5% auto auto 5%; }
 
 .app-nav-menu {
   grid-column: 1 / 3;
@@ -22,7 +22,8 @@ body {
 
 ul#menu {
   list-style-type: none;
-  margin: 0; }
+  margin: 0;
+  padding: 0; }
   ul#menu li {
     margin: 0.5em;
     padding: 0;
@@ -49,7 +50,6 @@ ul#menu {
   flex-direction: row;
   justify-content: flex-start;
   align-items: stretch;
-  background-color: #fff;
   height: 100vw; }
 
 .app-aside-nav {
@@ -80,8 +80,7 @@ ul#menu {
   grid-row: 3 / 4;
   display: grid;
   font-family: 'futura';
-  color: #ff0000;
-  background-color: #fff; }
+  color: #ff0000; }
 
 a {
   text-decoration: none; }
@@ -89,5 +88,20 @@ a {
 h1 {
   font-size: 4rem;
   text-align: center; }
+
+.footer {
+  grid-column: 1 / 4;
+  grid-row: 4 / 5;
+  font-family: 'futura';
+  font-size: 1em;
+  text-align: center;
+  background-color: #ff0000;
+  color: #fbff4f;
+  padding: 1em; }
+
+.screen {
+  margin-right: 5em;
+  margin-left: 5em;
+  text-align: justify; }
 
 /*# sourceMappingURL=app.css.map */
