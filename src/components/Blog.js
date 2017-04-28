@@ -8,7 +8,7 @@ class Blog extends Component {
         <h1>Blog</h1>
         <p>Most recent blog:</p>
         <hr />
-        <p className="blog-date">April 27th, 2017
+        <p className="blog-date">April 27th, 2017</p>
         <h3>HTML</h3>
         <ul>
           <li>Description</li>
@@ -17,7 +17,7 @@ class Blog extends Component {
           <p>Lorem ipsum...</p>
         </ul>
         <h3>Tags:</h3>
-        <input id="tags" type="text" placeholder=""/>
+        <input id="tags" type="text" placeholder="" />
       </div>
     )
   }
