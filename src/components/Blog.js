@@ -6,6 +6,9 @@ class Blog extends Component {
     return (
       <div className="screen blog">
         <h1>Blog</h1>
+        <p>Most recent blog:</p>
+        <hr />
+        <p className="blog-date">April 27th, 2017
         <h3>HTML</h3>
         <ul>
           <li>Description</li>
