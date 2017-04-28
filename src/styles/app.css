@@ -71,9 +71,16 @@ ul#menu {
     font-family: 'futura';
     color: #ff0000;
     font-size: 2.5em; }
-  .app-aside-nav li {
-    list-style-type: none;
-    font-size: 1.5em; }
+
+.months {
+  list-style-type: none;
+  font-size: 1.5em;
+  cursor: pointer; }
+
+.tags {
+  list-style-type: none;
+  font-size: 1.25em;
+  cursor: pointer; }
 
 legend {
   font-size: 4em;
@@ -110,9 +117,15 @@ label {
 a {
   text-decoration: none; }
 
-h1 {
-  font-size: 4rem;
-  text-align: center; }
+.main-title {
+  font-size: 5rem;
+  text-align: center;
+  font-weight: bolder; }
+
+.blog-post-title {
+  font-size: 3em;
+  font-weight: bolder;
+  margin: 0; }
 
 .footer {
   grid-column: 1 / 4;
@@ -128,6 +141,13 @@ h1 {
   margin-right: 5em;
   margin-left: 5em;
   text-align: justify; }
+
+.blog-post {
+  padding-bottom: 0.5em;
+  margin-bottom: 7em; }
+
+.blog-date {
+  font-size: 0.85em; }
 
 #new-post {
   font-size: 1.0em; }

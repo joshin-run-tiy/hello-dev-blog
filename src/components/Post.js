@@ -5,7 +5,7 @@ class Post extends Component {
   render() {
     return (
       <div className="screen post">
-        <h1>New Post</h1>
+        <p className="main-title">New Post</p>
         <form>
           <fieldset>
             <legend>Post</legend>
