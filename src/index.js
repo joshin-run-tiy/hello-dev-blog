@@ -7,6 +7,7 @@ import Links from './components/Links'
 import About from './components/About'
 import Footer from './components/Footer'
 import Post from './components/Post'
+import Posts from './components/Posts'
 
 class App extends React.Component {
 
