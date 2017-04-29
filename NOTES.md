@@ -81,3 +81,12 @@ posts.map((p, i) => (
   <Format key={i} post={p}/>
 ))
 }
+
+
+
+
+{
+this.props.posts.posts.map((p, i) => (
+  <Format key={i} post={p}/>
+))
+}

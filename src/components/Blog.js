@@ -14,7 +14,6 @@ class Blog extends Component {
     return (
       <div className="screen blog">
         <p className="main-title">Blog Posts</p>
-
       </div>
     )
   }
