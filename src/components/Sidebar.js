@@ -7,13 +7,20 @@ class Sidebar extends Component {
       <div className="app-aside-nav">
         <div className="para">
           <p>Archive</p>
-            <ul className="months">
-              <li><a href="#">April 2017</a></li>
-              <li><a href="#">March 2017</a></li>
-              <li><a href="#">February 2017</a></li>
-              <li><a href="#">January 2017</a></li>
-              <li><a href="#">December 2017</a></li>
-            </ul>
+
+              <ul>
+                <li className="years"><a href="#">2017</a></li>
+                <ul className="months">
+                  <li><a href="#">April</a></li>
+                  <li><a href="#">March</a></li>
+                  <li><a href="#">February</a></li>
+                  <li><a href="#">January</a></li>
+                </ul>
+                <li className="years"><a href="#">2016</a></li>
+                <ul className="months">
+                  <li><a href="#">December</a></li>
+                </ul>
+              </ul>
           <p>Tags</p>
             <ul className="tags">
               <li><a href="#">html</a></li>
