@@ -85,6 +85,22 @@ posts.map((p, i) => (
 
 
 
+<div>
+  <h1>{post.date} {post.title} </h1>
+  <div className="styling-for-the-post">
+    <p>
+      {post.content}
+    </p>
+    <p>
+      tags: {post.tags}
+    </p>
+  </div>
+</div>
+
+
+
+
+
 {
 this.props.posts.posts.map((p, i) => (
   <Format key={i} post={p}/>

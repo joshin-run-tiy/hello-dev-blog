@@ -14,17 +14,7 @@ class Format extends Component {
     console.log(varFoundProps);
     // const post = this.props.posts.posts
     return (
-      <div>
-        <h1>{post.date} {post.title} </h1>
-        <div className="styling-for-the-post">
-          <p>
-            {post.content}
-          </p>
-          <p>
-            tags: {post.tags}
-          </p>
-        </div>
-      </div>
+
       <p>{varFoundProps}</p>
 
     )
