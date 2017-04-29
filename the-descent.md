@@ -7,5 +7,9 @@
 - generate the ones that pass the filter
   - create the filter
   - create date or syntax where the filter can parse
-- generate field for title, dates
 - pass in props that will include
+
+
+
+
+generate field for title, dates

@@ -13,7 +13,8 @@ class App extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-      screenIndex: 1
+      screenIndex: 1,
+      posts: Blog
     }
   }
 
