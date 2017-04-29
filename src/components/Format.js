@@ -3,18 +3,19 @@ import React, { Component } from 'react'
 class Format extends Component {
 
   render() {
-    const post = this.props.postsArr
-    console.log('postArr from Format.js', post);
+    const post = this.props
+    // console.log('postArr from Format.js', post);
 
     return (
       <div>
-        <h1>{post.date} {post.title} </h1>
+        <p>date/title: {post.post.date}</p>
+        <p>{post.post.title}</p>
         <div className="styling-for-the-post">
           <p>
-            {post.content}
+            content: {post.post.content}
           </p>
           <p>
-            tags: {post.tags}
+            tags: {post.post.tags}
           </p>
         </div>
       </div>
