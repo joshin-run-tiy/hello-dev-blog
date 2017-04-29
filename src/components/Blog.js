@@ -11,7 +11,7 @@ class Blog extends Component {
     return (
       <div className="screen blog">
         <p className="main-title">Blog Posts</p>
-          <div className="main-blog">
+          <div className="blog-container">
             {
               postsArr.map((p, i) => (
               // console.log('label p', p),

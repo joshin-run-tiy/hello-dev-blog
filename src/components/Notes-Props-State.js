@@ -7,6 +7,10 @@ class Blog extends Component {
       <div className="screen blog">
         <p className="main-title">Blog Posts</p>
         <div className="blog-post">
+
+
+
+
           <p className="blog-date">April 27th, 2017</p>
           <p className="blog-post-title">HTML</p>
             <p>Description: Lorem ipsum dolor sit amet, consectetur adipisicing ept,</p>
