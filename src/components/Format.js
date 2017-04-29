@@ -4,7 +4,7 @@ class Format extends Component {
 
   render() {
     console.log('x');
-    const post = this.props.post
+    const post = this.props.posts
     return (
       <div>
         <h1>{post.date} {post.title} </h1>

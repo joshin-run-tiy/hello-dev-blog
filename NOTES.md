@@ -73,3 +73,11 @@ This week's assignment is to build a React app for a blog.
 - [ ] Your sidebar should include a list of months when a blog entry has been made, along with a
 - [ ] list of tags used on blogs.
 - [ ] Clicking on a month or tag should show a filtered list of blog entries.
+
+
+
+{
+posts.map((p, i) => (
+  <Format key={i} post={p}/>
+))
+}

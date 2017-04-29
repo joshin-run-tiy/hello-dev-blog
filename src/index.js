@@ -17,8 +17,8 @@ class App extends React.Component {
       screenIndex: 1,
       posts: Posts
     }
-    console.log('this is Posts props', this.state.posts)
-    this.posts = this.state.posts
+    // console.log('from index.js: the.state.posts', this.state.posts)
+    // console.log('from index.js: Posts', Posts)
   }
 
   updateScreen(newScreenIndex) {
@@ -31,7 +31,7 @@ class App extends React.Component {
     let ActiveScreen
 
     if(this.state.screenIndex === 1) {
-      ActiveScreen = <Blog posts={this.posts}/>
+      ActiveScreen = <Blog posts={this.state.posts}/>
     }
 
     if(this.state.screenIndex === 2) {

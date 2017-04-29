@@ -11,7 +11,7 @@ module.exports = {
             date: "May",
             title: "This Street",
             content: "Hello Dev",
-            tags: ["div"]
+            tags: ["div", "You found me!"]
           }
         ]
       }
