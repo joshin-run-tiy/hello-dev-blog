@@ -17,9 +17,6 @@ class App extends React.Component {
       screenIndex: 1,
       posts: Posts
     }
-    console.log('from index.js: the.state.posts.posts: Object?', this.state.posts.posts)
-    console.log('from index.js: the.state.posts: Array?', this.state.posts)
-
   }
 
   updateScreen(newScreenIndex) {
@@ -32,7 +29,7 @@ class App extends React.Component {
     let ActiveScreen
 
     if(this.state.screenIndex === 1) {
-      ActiveScreen = <Blog posts={this.state.posts}/>
+      ActiveScreen = <Blog posts={this.state.posts.posts}/>
     }
 
     if(this.state.screenIndex === 2) {

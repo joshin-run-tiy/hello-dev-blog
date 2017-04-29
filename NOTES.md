@@ -99,6 +99,13 @@ posts.map((p, i) => (
 
 
 
+{
+postsObj.map((p, i) => (
+  <Format key={i} post={p}/>
+))
+}
+
+
 
 
 {
