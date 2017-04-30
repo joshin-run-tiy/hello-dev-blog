@@ -27,6 +27,7 @@ class App extends React.Component {
 
   render() {
     let ActiveScreen
+    <Sidebar posts={this.state.posts.posts}/>
 
     if(this.state.screenIndex === 1) {
       ActiveScreen = <Blog posts={this.state.posts.posts}/>
