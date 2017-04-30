@@ -3,24 +3,28 @@ import React, { Component } from 'react'
 class Sidebar extends Component {
 
   render() {
+    
+    function filter(target) {
+      console.log('target', target);
+    }
+
     return (
       <div className="app-aside-nav">
         <div className="para">
           <p>Archive</p>
-
-              <ul>
-                <li className="years"><a href="#">2017</a></li>
-                <ul className="months">
-                  <li><a href="#">April</a></li>
-                  <li><a href="#">March</a></li>
-                  <li><a href="#">February</a></li>
-                  <li><a href="#">January</a></li>
-                </ul>
-                <li className="years"><a href="#">2016</a></li>
-                <ul className="months">
-                  <li><a href="#">December</a></li>
-                </ul>
+            <ul>
+              <li className="years" onClick={() => {filter(2017)}}>2017</li>
+              <ul className="months">
+                <li onClick={() => {filter('April')}}>April</li>
+                <li onClick={() => {filter('March')}}>March</li>
+                <li onClick={() => {filter('February')}}>February</li>
+                <li onClick={() => {filter('January')}}>January</li>
               </ul>
+              <li className="years" onClick={() => {filter(2016)}}>2016</li>
+              <ul className="months">
+                <li onClick={() => {filter('December')}}>December</li>
+              </ul>
+            </ul>
           <p>Tags</p>
             <ul className="tags">
               <li><a href="#">html</a></li>
