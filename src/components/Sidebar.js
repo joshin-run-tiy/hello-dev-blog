@@ -11,15 +11,40 @@ class Sidebar extends Component {
   }
 
   render() {
-    const postsSBArr = this.state.posts.posts;
+    const posts = this.state.posts.posts;
 
-    function filter(target) {
-      console.log('target', target);
-    }
+    const tags = [];
+    const monthArray = [];
+    const year = [];
 
-    function other(target) {
-      console.log('other', target);
-    }
+    posts.map((posts.posts, i, a)=>{
+      const tagsArray = posts.posts.tags;
+      tagsArray.map((c, i, a)=> {
+        if(!tags.includes(c)) {
+          tags.push(c)
+        }
+      })
+    })
+
+    posts.map((posts.posts, i, a)=>{
+      const monthArray = posts.posts.dateStamp.month;
+      monthArray.map((c, i, a)=> {
+        if(!month.includes(c)) {
+          month.push(c)
+        }
+      })
+    })
+
+
+  //   const postsSBArr = this.state.posts.posts;
+  //
+  //   function filter(target) {
+  //     console.log('target', target);
+  //   }
+  //
+  //   function other(target) {
+  //     console.log('other', target);
+  //   }
 
     // function firstFilter(target) {
     //   console.log(postsSBArr.filter(function(target){
@@ -37,14 +62,14 @@ class Sidebar extends Component {
     //     //  el.num_of_beds >=2 &&
     //     //  el.num_of_baths >= 2.5;
     //   },
-    function trueFilter(target) {
+    // function trueFilter(target) {
+    //
+    //   console.log(postsSBArr)
+    //   }
 
-      console.log(postsSBArr)
-      }
 
 
-
-    console.log('posts passed now logged from Sidebar.js', postsSBArr);
+    // console.log('posts passed now logged from Sidebar.js', postsSBArr);
 
     return (
       <div className="app-aside-nav">
