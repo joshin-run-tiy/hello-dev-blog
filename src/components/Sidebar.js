@@ -11,29 +11,29 @@ class Sidebar extends Component {
   }
 
   render() {
-    const posts = this.state.posts.posts;
-
-    const tags = [];
-    const monthArray = [];
-    const year = [];
-
-    posts.map((posts.posts, i, a)=>{
-      const tagsArray = posts.posts.tags;
-      tagsArray.map((c, i, a)=> {
-        if(!tags.includes(c)) {
-          tags.push(c)
-        }
-      })
-    })
-
-    posts.map((posts.posts, i, a)=>{
-      const monthArray = posts.posts.dateStamp.month;
-      monthArray.map((c, i, a)=> {
-        if(!month.includes(c)) {
-          month.push(c)
-        }
-      })
-    })
+    // const posts = this.state.posts.posts;
+    //
+    // const tags = [];
+    // const monthArray = [];
+    // const year = [];
+    //
+    // posts.map((posts.posts, i, a)=>{
+    //   const tagsArray = posts.posts.tags;
+    //   tagsArray.map((c, i, a)=> {
+    //     if(!tags.includes(c)) {
+    //       tags.push(c)
+    //     }
+    //   })
+    // })
+    //
+    // posts.map((posts.posts, i, a)=>{
+    //   const monthArray = posts.posts.dateStamp.month;
+    //   monthArray.map((c, i, a)=> {
+    //     if(!month.includes(c)) {
+    //       month.push(c)
+    //     }
+    //   })
+    // })
 
 
   //   const postsSBArr = this.state.posts.posts;
