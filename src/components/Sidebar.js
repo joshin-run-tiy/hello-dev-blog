@@ -11,6 +11,7 @@ class Sidebar extends Component {
   }
 
   render() {
+
     // const posts = this.state.posts.posts;
     //
     // const tags = [];
@@ -71,21 +72,26 @@ class Sidebar extends Component {
 
     // console.log('posts passed now logged from Sidebar.js', postsSBArr);
 
+
+    const postsSBArr = this.state.posts.posts;
+    console.log('posts passed now logged from Sidebar.js', postsSBArr);
+    // <li ('April'),
+
     return (
       <div className="app-aside-nav">
         <div className="para">
           <p>Archive</p>
             <ul>
-              <li className="years" onClick={() => {filter(2017)}}>2017</li>
+              <li>2017</li>
               <ul className="months">
-                <li onClick={() => {filter('April'), trueFilter('April')}}>April</li>
-                <li onClick={() => {filter('March')}}>March</li>
-                <li onClick={() => {filter('February')}}>February</li>
-                <li onClick={() => {filter('January'), other('January')}}>January</li>
+                <li>April</li>
+                <li>March</li>
+                <li>February</li>
+                <li>January</li>
               </ul>
-              <li className="years" onClick={() => {filter(2016)}}>2016</li>
+              <li>2016</li>
               <ul className="months">
-                <li onClick={() => {filter('December'), trueFilter('December')}}>December</li>
+                <li>December</li>
               </ul>
             </ul>
           <p>Tags</p>
