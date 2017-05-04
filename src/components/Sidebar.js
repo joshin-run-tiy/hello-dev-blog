@@ -96,20 +96,20 @@ class Sidebar extends Component {
             </ul>
           <p>Tags</p>
             <ul className="tags">
-              <li><a href="#">html</a></li>
-              <li><a href="#">element</a></li>
-              <li><a href="#">document</a></li>
-              <li><a href="#">css</a></li>
-              <li><a href="#">style</a></li>
-              <li><a href="#">color</a></li>
-              <li><a href="#">element</a></li>
-              <li><a href="#">javascript</a></li>
-              <li><a href="#">language</a></li>
-              <li><a href="#">interactive</a></li>
-              <li><a href="#">jquery</a></li>
-              <li><a href="#">library</a></li>
-              <li><a href="#">react</a></li>
-              <li><a href="#">facebook</a></li>
+              <li>html</li>
+              <li>element</li>
+              <li>document</li>
+              <li>css</li>
+              <li>style</li>
+              <li>color</li>
+              <li>element</li>
+              <li>javascript</li>
+              <li>language</li>
+              <li>interactive</li>
+              <li>jquery</li>
+              <li>library</li>
+              <li>react</li>
+              <li>facebook</li>
             </ul>
         </div>
       </div>
