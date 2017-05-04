@@ -5,3 +5,4 @@ This project is currently under development and has not reached a completed stat
 Thanks!
 
 Josh Holladay
+Front-end Developer
