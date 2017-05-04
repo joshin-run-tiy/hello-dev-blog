@@ -14,7 +14,7 @@
   "devDependencies": {
     "react-scripts": "0.9.5"
   },
-  "homepage": "http://myname.github.io/hello-dev-blog",
+  "homepage": "https://joshin-run.github.io/hello-dev-blog",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
