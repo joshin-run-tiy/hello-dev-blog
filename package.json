@@ -14,11 +14,14 @@
   "devDependencies": {
     "react-scripts": "0.9.5"
   },
+  "homepage": "http://myname.github.io/hello-dev-blog",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
   },
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
   "main": "index.js",
