@@ -2,6 +2,9 @@
 # __Project Notes__
 ****
 
+## js date
+- momentjs package
+
 ## Assigment: Build-A-Blog - Frontend
 
 This week's assignment is to build a React app for a blog.

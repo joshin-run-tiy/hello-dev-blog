@@ -3,11 +3,22 @@ import Posts from './Posts'
 
 class Sidebar extends Component {
 
-  constructor(props) {
-    super(props)
-    this.state = {
-      posts: Posts
-    }
+  renderMonth (post) {
+    return (
+      <li> {
+        post.datestamp
+      }
+      </li>
+    )
+  }
+
+  renderMonths () {
+    return (
+      <ul> {
+        this.props.posts.map(p => this.renderMonth(p))
+      }
+      </ul>
+    )
   }
 
   render() {
@@ -81,6 +92,7 @@ class Sidebar extends Component {
       <div className="app-aside-nav">
         <div className="para">
           <p>Archive</p>
+            {this.renderMonths()}
             <ul>
               <li>2017</li>
               <ul className="months">
