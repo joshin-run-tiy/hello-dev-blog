@@ -3,23 +3,23 @@ import Posts from './Posts'
 
 class Sidebar extends Component {
 
-  renderMonth (post) {
-    return (
-      <li> {
-        post.datestamp
-      }
-      </li>
-    )
-  }
-
-  renderMonths () {
-    return (
-      <ul> {
-        this.props.posts.map(p => this.renderMonth(p))
-      }
-      </ul>
-    )
-  }
+  // renderMonth (post) {
+  //   return (
+  //     <li> {
+  //       post.datestamp
+  //     }
+  //     </li>
+  //   )
+  // }
+  //
+  // renderMonths () {
+  //   return (
+  //     <ul> {
+  //       this.props.posts.map(p => this.renderMonth(p))
+  //     }
+  //     </ul>
+  //   )
+  // }
 
   render() {
 
@@ -84,15 +84,15 @@ class Sidebar extends Component {
     // console.log('posts passed now logged from Sidebar.js', postsSBArr);
 
 
-    const postsSBArr = this.state.posts.posts;
-    console.log('posts passed now logged from Sidebar.js', postsSBArr);
+    // const postsSBArr = this.state.posts.posts;
+    // console.log('posts passed now logged from Sidebar.js', postsSBArr);
     // <li ('April'),
 
     return (
       <div className="app-aside-nav">
         <div className="para">
           <p>Archive</p>
-            {this.renderMonths()}
+
             <ul>
               <li>2017</li>
               <ul className="months">

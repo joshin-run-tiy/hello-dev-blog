@@ -28,23 +28,20 @@ class App extends React.Component {
   render() {
     let ActiveScreen
     <Sidebar posts={this.state.posts.posts}/>
-
     if(this.state.screenIndex === 1) {
       ActiveScreen = <Blog posts={this.state.posts.posts}/>
     }
-
     if(this.state.screenIndex === 2) {
       ActiveScreen = <Links />
     }
-
     if(this.state.screenIndex === 3) {
       ActiveScreen = <About />
     }
-
     if(this.state.screenIndex === 4) {
       ActiveScreen = <Post />
     }
-
+    console.log('hello!')
+    console.log(this.state.posts.posts);
   return (
     <div className="app">
       <div id="home" className="app-wrapper">
